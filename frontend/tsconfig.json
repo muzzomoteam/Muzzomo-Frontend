@@ -1,0 +1,71 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@analytics/*": [
+        "src/analytics/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@definitions/*": [
+        "src/definitions/*"
+      ],
+      "@interfaces/*": [
+        "src/interfaces/*"
+      ],
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@enums/*": [
+        "src/enums/*"
+      ],
+      "@models/*": [
+        "src/models/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@public/*": [
+        "public/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@strings/*": [
+        "src/strings/*"
+      ],
+      "@test/*": [
+        "test/*"
+      ]
+    },
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "test/*",
+    "cypress/*"
+  ]
+}
